@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <main>
+    <h1>Gerador de senha</h1>
+
+    <section id="quantidade-caracter">
+        <p>Quantidade de caracteres</p>
+
+        <div>
+            <span id="quant">0</span>
+            <input type="range" id="range" min="8" max="20">
+
+        </div>
+
+       
+    </section>
+
+    <button id="btn-gerar" onclick="gerar()">Gerar senha</button>
+
+    <section id="resultado">
+       <h3>Senha gerada:</h3> 
+
+        <div id="senha"></div>
+    </section>
+
+   
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
